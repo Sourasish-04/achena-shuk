@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Users, MapPin } from 'lucide-react';
+import Header from '../components/Header'; // Import the Header component
 
 const AllProjects = () => {
   const projects = [
@@ -12,7 +13,7 @@ const AllProjects = () => {
       image: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
       description: "Providing clean water access to remote villages in rural areas through sustainable well construction and water purification systems.",
       beneficiaries: 2500,
-      photos: [ ]
+      photos: []
     },
     {
       id: 2,
@@ -68,18 +69,13 @@ const AllProjects = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Header */}
-      <div className="bg-[#1f1f1f] py-8">
+      {/* Global Header */}
+      <Header />
+
+      {/* Page Content with Top Padding */}
+      <div className="bg-[#1f1f1f] py-40 pt-40">
         <div className="container mx-auto px-4">
-          <div className="flex items-center space-x-4 mb-6">
-            <Link 
-              to="/" 
-              className="flex items-center space-x-2 text-[#b0db9c] hover:text-white transition-colors duration-300"
-            >
-              <ArrowLeft className="w-5 h-5" />
-              <span>Back to Home</span>
-            </Link>
-          </div>
+          
           <h1 className="text-4xl md:text-5xl font-bold mb-4">All Projects</h1>
           <p className="text-xl text-gray-400">Discover the impact we're making worldwide</p>
         </div>
@@ -142,4 +138,3 @@ const AllProjects = () => {
 };
 
 export default AllProjects;
-//hehe
