@@ -1,28 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Heart, Users, Globe } from 'lucide-react';
+import Header from '../components/Header'; // <-- Add this line
 
 const Story = () => {
   return (
     <div className="min-h-screen bg-black text-white">
+      {/* Global Header */}
+      <Header /> {/* <-- Add this line */}
+
       {/* Header */}
-      <div className="bg-[#1f1f1f] py-8">
+      <div className="bg-[#1f1f1f] py-40 pt-40">
         <div className="container mx-auto px-4">
-          <div className="flex items-center space-x-4 mb-6">
-            <Link 
-              to="/" 
-              className="flex items-center space-x-2 text-[#b0db9c] hover:text-white transition-colors duration-300"
-            >
-              <ArrowLeft className="w-5 h-5" />
-              <span>Back to Home</span>
-            </Link>
-          </div>
+          
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Story</h1>
           <p className="text-xl text-gray-400">The journey of hope, compassion, and transformation</p>
         </div>
       </div>
 
-      {/* Story Content */}
+      {/* Story Content with Top Padding */}
       <div className="container mx-auto px-4 py-12">
         {/* Introduction */}
         <div className="max-w-4xl mx-auto mb-16">
@@ -31,14 +27,14 @@ const Story = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Achena Sukh</h2>
             <p className="text-xl text-gray-300 leading-relaxed">
               Welcome to ACHENA SUKH, the name "Achen Sukh" is a combination of two Bengali words.
-Achena means unknown and Sukh means happiness.
-Unknown happiness is a kind of happiness that is beyond the material or superficial pleasures which people often pursue. It is the deeper or more meaningful sense of contentment or satisfaction that comes from helping others, making a positive impact, or finding a sense of purpose. By striving to bring unknown happiness to people's live, ACHENA SUKH has been working towards a greater sense of fulfillment and well-being for both the recipients and the volunteers involved in its activities.
-We are Achena Sukh with a noble cause,
-Our mission is to bring light where there was pause,
-To uplift lives and make dreams come true,
-We believe in making a difference, how about you?
-where we strive to bring unknown happiness into people’s life through our programs and initiatives, we aim to make a positive impact and alleviate pain.
-Join us in our journey towards a brighter tomorrow Together, we can spread joy and banish sorrow.
+              Achena means unknown and Sukh means happiness.
+              Unknown happiness is a kind of happiness that is beyond the material or superficial pleasures which people often pursue. It is the deeper or more meaningful sense of contentment or satisfaction that comes from helping others, making a positive impact, or finding a sense of purpose. By striving to bring unknown happiness to people's lives, ACHENA SUKH has been working towards a greater sense of fulfillment and well-being for both the recipients and the volunteers involved in its activities.
+              We are Achena Sukh with a noble cause,
+              Our mission is to bring light where there was pause,
+              To uplift lives and make dreams come true,
+              We believe in making a difference, how about you?
+              Where we strive to bring unknown happiness into people’s life through our programs and initiatives, we aim to make a positive impact and alleviate pain.
+              Join us in our journey towards a brighter tomorrow. Together, we can spread joy and banish sorrow.
             </p>
           </div>
 
@@ -62,7 +58,7 @@ Join us in our journey towards a brighter tomorrow Together, we can spread joy a
               Our mission is to reach those who are struggling in silence, offering not just aid, but hope, empowerment, and a sense of belonging.
             </p>
             <p className="text-gray-300 leading-relaxed">
-            Through compassionate outreach, sustainable support systems, and a deeply committed team, we aim to uplift lives, restore faith in humanity, and build a future where kindness and solidarity are the foundation of every community.
+              Through compassionate outreach, sustainable support systems, and a deeply committed team, we aim to uplift lives, restore faith in humanity, and build a future where kindness and solidarity are the foundation of every community.
             </p>
           </div>
 
@@ -73,8 +69,6 @@ Join us in our journey towards a brighter tomorrow Together, we can spread joy a
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
               At Achena Sukh, our vision is to create a world where no one feels forgotten, helpless, or alone. We are driven by the belief that every person deserves access to basic dignity, care, and opportunity—regardless of their circumstances.
-            </p>
-            <p className="text-gray-300 leading-relaxed">
             </p>
           </div>
         </div>
