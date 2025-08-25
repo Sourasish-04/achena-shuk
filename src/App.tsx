@@ -18,6 +18,8 @@ import AllProjects from './pages/AllProjects';
 import Story from './pages/Story';
 /* import Home from './pages/Home'; */
 import Donation from './pages/Donation';
+import BloodDonorForm from './pages/BloodDonorForm';
+import BloodDonorResults from './pages/BloodDonorResults';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -54,9 +56,9 @@ function App() {
           <Route path="/verify" element={<VerifyMember />} />
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/story" element={<Story />} />
-          
-          
           <Route path="/donation" element={<Donation />} />
+          <Route path="/blood-donor" element={<BloodDonorForm />} />
+          <Route path="/blood-donor-results" element={<BloodDonorResults />} />
         </Routes>
       </div>
     </Router>

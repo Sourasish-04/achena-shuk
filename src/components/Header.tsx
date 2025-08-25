@@ -36,6 +36,12 @@ const Header = () => {
             <Link to="/story" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Story</Link>
             <Link to="/projects" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Projects</Link>
             <Link to="/verify" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Verify Member</Link>
+            <Link
+  to="/blood-donor"
+  className="hover:text-[#b0db9c] transition-colors duration-300"
+>
+  Blood Donor
+</Link>
             <a
               href="/donation"
               className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-8 py-3 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[0_0_20px_rgba(176,219,156,0.6)]"
@@ -61,6 +67,12 @@ const Header = () => {
               <Link to="/story" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Story</Link>
               <Link to="/projects" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Projects</Link>
               <Link to="/verify" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Verify Member</Link>
+              <Link
+  to="/blood-donor"
+  className="hover:text-[#b0db9c] transition-colors duration-300"
+>
+  Blood Donor
+</Link>
               <a 
                 href="/donation"
                 className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-8 py-3 rounded-full text-center text-lg transition-all duration-300"

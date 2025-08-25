@@ -18,8 +18,8 @@ const About = () => {
 
           {/* Right side - Content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">About Achena Sukh</h2>
-            <p className="text-xl text-gray-300 mb-6 leading-relaxed">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-[#b0db9c] bg-clip-text text-transparent">About Achena Sukh</h2>
+            <p className="text-xl text-gray-300 mb-6 leading-relaxed ">
               Welcome to ACHENA SUKH, the name "Achen Sukh" is a combination of two
 Bengali words.
 Achena means unknown and Sukh means happiness.

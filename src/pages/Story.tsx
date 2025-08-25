@@ -81,53 +81,65 @@ Join us in our journey towards a brighter tomorrow Together, we can spread joy a
 
         {/* Journey Timeline */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Our Journey</h2>
-          
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">OUR FIELD OF WORK</h2>
+
           <div className="space-y-8">
             <div className="flex items-start space-x-6">
               <div className="bg-[#b0db9c] text-black px-4 py-2 rounded-full font-bold text-lg flex-shrink-0">
-                2014
+                .
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Foundation Established</h4>
+                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Education:</h4>
                 <p className="text-gray-300">
-                  HopeFoundation was officially established with our first project providing clean water access to 500 families in rural Guatemala. This marked the beginning of our mission to create lasting change.
+                  Education is the foundation of any developed society. we work to provide education to children who are denied access to schools due to poverty or other reasons. We also provide competitive exam prepartion training to youths to enhance their skills and employability.
                 </p>
               </div>
             </div>
 
             <div className="flex items-start space-x-6">
               <div className="bg-[#b0db9c] text-black px-4 py-2 rounded-full font-bold text-lg flex-shrink-0">
-                2017
+                .
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Education Initiative Launch</h4>
+                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Health:</h4>
                 <p className="text-gray-300">
-                  Launched our education program, building our first school in Kenya and providing educational resources to over 1,000 children. This expanded our impact beyond water access to include educational empowerment.
+                  Achena Sukh work to improve the health of people in underprivileged communities. This can include providing access to basic healthcare facilities, promoting health education and awareness, and working towards eradicating communicable diseases such as malaria, tuberculosis, and HIV/AIDS.
                 </p>
               </div>
             </div>
 
             <div className="flex items-start space-x-6">
               <div className="bg-[#b0db9c] text-black px-4 py-2 rounded-full font-bold text-lg flex-shrink-0">
-                2020
+                .
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Healthcare Expansion</h4>
+                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Environment:</h4>
                 <p className="text-gray-300">
-                  Expanded our services to include mobile healthcare clinics, reaching remote communities in India and the Philippines. Our healthcare program has since served over 15,000 individuals.
+                  Environmental degradation is a growing concern globally. We work to protect the environment by promoting sustainable development, reducing carbon footprints, and conserving natural resources.
                 </p>
               </div>
             </div>
 
             <div className="flex items-start space-x-6">
               <div className="bg-[#b0db9c] text-black px-4 py-2 rounded-full font-bold text-lg flex-shrink-0">
-                2024
+                .
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Global Impact</h4>
+                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Human Rights:</h4>
                 <p className="text-gray-300">
-                  Today, we've completed over 247 projects across 15 countries, impacting more than 15,420 lives. Our team of 50 dedicated professionals continues to work tirelessly toward our vision of a more equitable world.
+                  Achena Sukh work to promote and protect human rights, especially for marginalized and vulnerable communities. They can fight against discrimination, exploitation, and violence and work towards achieving equality and justice for all.
+                </p>
+              </div>
+            </div>
+            
+            <div className="flex items-start space-x-6">
+              <div className="bg-[#b0db9c] text-black px-4 py-2 rounded-full font-bold text-lg flex-shrink-0">
+                .
+              </div>
+              <div>
+                <h4 className="text-xl font-semibold mb-2 text-[#b0db9c]">Food & clothing:</h4>
+                <p className="text-gray-300">
+                  We understand that food and clothing are essential for human survival and dignity, and we strive to ensure that everyone has access to these basic necessities. We work towards providing food aid to those who are facing hunger and malnutrition. In addition, we work to provide clothing to those who cannot afford it, especially during extreme weather conditions.
                 </p>
               </div>
             </div>

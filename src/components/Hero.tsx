@@ -1,8 +1,8 @@
-import React from 'react'; // Home page first photo
+// import React from 'react'; // Home page first photo
 import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
-  const donateLink = "https://forms.google.com/donate-form";
+  // const donateLink = "https://forms.google.com/donate-form";
   
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -11,7 +11,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: 'url("src/components/Home_page.jpg")', // Corrected path with forward slashes
-        }} // Home page first background image
+        }} // Home page first background image collage
       >
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
