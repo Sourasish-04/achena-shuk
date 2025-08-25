@@ -1,18 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Heart, Users, Globe } from 'lucide-react';
-import Header from '../components/Header'; // <-- Add this line
+import { ArrowLeft, Users, Globe } from 'lucide-react';
+import Header from '../components/Header'; // Import the Header component
 
 const Story = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Global Header */}
-      <Header /> {/* <-- Add this line */}
+      <Header />
 
       {/* Header */}
       <div className="bg-[#1f1f1f] py-40 pt-40">
         <div className="container mx-auto px-4">
-          
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Story</h1>
           <p className="text-xl text-gray-400">The journey of hope, compassion, and transformation</p>
         </div>
@@ -23,7 +22,12 @@ const Story = () => {
         {/* Introduction */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="text-center mb-12">
-            <Heart className="w-16 h-16 text-[#b0db9c] mx-auto mb-6" />
+            {/* Replace Heart Icon with Logo */}
+            <img
+              src="src/components/Logo2.png" // Update this path to your logo file
+              alt="Achena Sukh Logo"
+              className="w-24 h-24 mx-auto mb-6 rounded-full object-cover"
+            />
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Achena Sukh</h2>
             <p className="text-xl text-gray-300 leading-relaxed">
               Welcome to ACHENA SUKH, the name "Achen Sukh" is a combination of two Bengali words.
@@ -144,7 +148,7 @@ const Story = () => {
         <div className="text-center mt-16 bg-[#1f1f1f] p-12 rounded-lg">
           <h3 className="text-3xl font-bold mb-6">Join Our Story</h3>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          At Achena Sukh, we believe that together we can make a real difference in our society.
+            At Achena Sukh, we believe that together we can make a real difference in our society.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 

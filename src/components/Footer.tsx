@@ -51,7 +51,6 @@ making a positive impact, or finding a sense of purpose.
               <li><a href="/story" className="text-gray-400 hover:text-[#b0db9c] transition-colors duration-300">Our Story</a></li>
               <li><a href="/projects" className="text-gray-400 hover:text-[#b0db9c] transition-colors duration-300">Our Projects</a></li>
               <li><a href="/members" className="text-gray-400 hover:text-[#b0db9c] transition-colors duration-300">Our Team</a></li>
-              <li><a href="/verify" className="text-gray-400 hover:text-[#b0db9c] transition-colors duration-300">Verify Member</a></li>
             </ul>
           </div>
 

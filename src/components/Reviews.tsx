@@ -31,7 +31,7 @@ const Reviews = () => {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
               name: "Maria Garcia",
@@ -51,6 +51,7 @@ const Reviews = () => {
               review: "The healthcare outreach program provided essential medical care when we needed it most. Incredibly grateful for their work.",
               rating: 5
             }
+            
           ].map((review, index) => (
             <div key={index} className="bg-[#2e2e2e] p-6 rounded-lg hover:shadow-[0_0_30px_rgba(176,219,156,0.6)] transition-all duration-300 transform hover:scale-105">
               <div className="flex space-x-1 mb-4">

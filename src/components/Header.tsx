@@ -35,7 +35,7 @@ const Header = () => {
             <a href="#about" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">About Us</a>
             <Link to="/story" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Story</Link>
             <Link to="/projects" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Projects</Link>
-            <Link to="/verify" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Verify Member</Link>
+             
             <Link
   to="/blood-donor"
   className="hover:text-[#b0db9c] transition-colors duration-300"
@@ -63,16 +63,11 @@ const Header = () => {
         {mobileMenuOpen && (
           <div className="md:hidden mt-4 py-6 bg-[#1f1f1f]/95 backdrop-blur-md rounded-lg">
             <nav className="flex flex-col space-y-6 px-6"> {/* Increased spacing */}
+              <Link to="/" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Home</Link>
               <a href="#about" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">About Us</a>
               <Link to="/story" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Story</Link>
               <Link to="/projects" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Projects</Link>
-              <Link to="/verify" className="hover:text-[#b0db9c] text-lg transition-colors duration-300">Verify Member</Link>
-              <Link
-  to="/blood-donor"
-  className="hover:text-[#b0db9c] transition-colors duration-300"
->
-  Blood Donor
-</Link>
+              
               <a 
                 href="/donation"
                 className="bg-[#2e2e2e] hover:bg-[#b0db9c] hover:text-black px-8 py-3 rounded-full text-center text-lg transition-all duration-300"

@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import FloatingSocial from './components/FloatingSocial';
 import LoadingAnimation from './components/LoadingAnimation';
 import AllMembers from './pages/AllMembers';
-import VerifyMember from './pages/VerifyMember';
+/*import VerifyMember from './pages/VerifyMember';*/
 import AllProjects from './pages/AllProjects';
 import Story from './pages/Story';
 /* import Home from './pages/Home'; */
@@ -53,7 +53,7 @@ function App() {
             </>
           } />
           <Route path="/members" element={<AllMembers />} />
-          <Route path="/verify" element={<VerifyMember />} />
+          {/*<Route path="/verify" element={<VerifyMember />} />*/}
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/story" element={<Story />} />
           <Route path="/donation" element={<Donation />} />
