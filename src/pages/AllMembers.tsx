@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowLeft, Mail, Phone, Users } from 'lucide-react';
+import { Phone, Users } from 'lucide-react';
+import Header from '../components/Header';
 
 const AllMembers = () => {
   // Member database from VerifyMember.tsx
@@ -69,18 +69,12 @@ const AllMembers = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Header */}
-      <div className="bg-[#1f1f1f] py-8">
+      {/* Global Header */}
+      <Header />
+
+      {/* Add top padding to the "Our Team Members" section */}
+      <div className="bg-[#1f1f1f] py-40 pt-40">
         <div className="container mx-auto px-4">
-          <div className="flex items-center space-x-4 mb-6">
-            <Link
-              to="/"
-              className="flex items-center space-x-2 text-[#b0db9c] hover:text-white transition-colors duration-300"
-            >
-              <ArrowLeft className="w-5 h-5" />
-              <span>Back to Home</span>
-            </Link>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Team Members</h1>
           <p className="text-xl text-gray-400">Meet all our dedicated team members</p>
         </div>
