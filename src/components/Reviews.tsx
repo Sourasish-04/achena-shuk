@@ -34,21 +34,21 @@ const Reviews = () => {
        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              name: "Maria Garcia",
-              location: "Guatemala",
-              review: "The clean water project in our village has transformed our daily lives. Thank you for bringing hope to our community!",
+              name: "Swapan Roy",
+              location: "Kakdwip",
+              review: "True humanity develops only when we learn to listen to the cries of living people, learn to stand by their side. Otherwise, the curse of emptiness will make us cry again and again, but then maybe there will be no one to hear our cries!The light of humanity still survives in society because of the Achena Sukh of Kakdwip or such exceptional organizations. When the family, society or the state fails to listen to the cries of living people, some people come forward with selfless love.These organizations are like silent poems of humanity - where the dead will be bowed in respect, but the main goal will be to alleviate the suffering of living people. They understand that not only oxygen is needed to survive, but also love, compassion and empathy.",
               rating: 5
             },
             {
-              name: "David Thompson",
-              location: "Kenya",
-              review: "The education program helped my children get the skills they needed. This organization truly cares about making a difference.",
+              name: "Sujit Mintu Saha",
+              location: "Kakdwip",
+              review: "In this way, everyone should celebrate their special days by donating one meal a day to these hungry people, Achena Sukh is ready to provide you with all kinds of support.",
               rating: 5
             },
             {
-              name: "Priya Sharma",
-              location: "India",
-              review: "The healthcare outreach program provided essential medical care when we needed it most. Incredibly grateful for their work.",
+              name: "Santanu Das",
+              location: "Kakdwip",
+              review: "Very nice plan, this kind of non profit organization is not often seen,",
               rating: 5
             }
             
